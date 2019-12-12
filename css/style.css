@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position: center;
+  color: white;
+  font-family: helvetica;
+  text-shadow: black 1px 0 40px;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr 2fr;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 3%;
+}
+
+/* img {
+  border: 3px solid white;
+  border-radius: 90%;
+  margin-top: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  font-weight: bold;
+  line-height: 40px;
+  word-spacing: 2px;
+  text-align: center;
+  font-size: 16px;
+}
+
+input {
+  text-align: center;
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: red;
+  border-radius: 10%;
+  color: white;
+} */
+
+/* EXPERIMENTAL WORK  */
+
+header {
+  border: 2px solid red;
+}
+
+.navLinks {
+  border: 2px solid blue;
+}
+
+.bio {
+  border: 2px solid green;
+}
+.bio p {
+  text-align: end;
+}
+.projects {
+  border: 2px solid gold;
+}
+
+.skills {
+  /* background: whitesmoke; */
+  border: 2px solid purple;
+}
+.skills li {
+  list-style-type: none;
+}
+
+.contact {
+  border: 2px solid teal;
+}
+
+.heading {
+  background: rgba(239, 200, 140, 1);
+  background-position: center;
+  border: 1px solid black;
+}
