@@ -71,7 +71,7 @@ header {
 }
 
 nav a {
-  color: #000000;
+  color: #ffffff;
 }
 
 .bio {
@@ -113,8 +113,8 @@ nav a {
 } */
 
 .content {
-  background: rgb(174, 177, 181);
-  color: #212121; /*rgba(58, 62, 60, 1);*/
+  background: #212121;
+  color: #ffffff; /*rgba(58, 62, 60, 1);*/
   margin-top: 0;
   padding-bottom: 3%;
   padding-top: 2.5%;
