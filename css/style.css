@@ -19,7 +19,7 @@ body {
   text-shadow: black 1px 0 40px;
 
   display: grid;
-  grid-template-rows: 1fr 1fr 3fr 2fr;
+  grid-template-rows: 1fr 1fr 38%;
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 3%;
 }
@@ -63,37 +63,51 @@ input[type="submit"] {
 /* EXPERIMENTAL WORK  */
 
 header {
-  border: 2px solid red;
+  grid-row: 1;
+  grid-column: 1;
 }
 
-.navLinks {
-  border: 2px solid blue;
+nav a {
+  color: white;
 }
 
 .bio {
-  border: 2px solid green;
+  grid-row: 1 / span 2;
+  grid-column: 2 / span 1;
 }
 .bio p {
   text-align: end;
 }
 .projects {
-  border: 2px solid gold;
+  grid-row: 1 / span 2;
+  grid-column: 3 / span 1;
 }
 
 .skills {
-  /* background: whitesmoke; */
-  border: 2px solid purple;
-}
-.skills li {
-  list-style-type: none;
+  grid-row: 2 / span 1;
+  grid-column: 1;
 }
 
 .contact {
-  border: 2px solid teal;
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 3;
+}
+
+footer {
+  max-height: 40%;
+}
+
+.content {
+  background: #cf5c36;
+  color: #d3d5d7;
+  margin-top: 0;
+  padding-bottom: 3%;
+  padding-top: 2.5%;
 }
 
 .heading {
   background: rgba(239, 200, 140, 1);
   background-position: center;
-  border: 1px solid black;
+  padding: 2% 0;
+  margin-bottom: 0;
 }
