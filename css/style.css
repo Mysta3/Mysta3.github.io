@@ -1,26 +1,29 @@
 body {
   text-align: center;
-  background: #8e9eab; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #eef2f3,
-    #8e9eab
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #eef2f3,
-    #8e9eab
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-position: center;
+  background: black;
   color: white;
   font-family: helvetica;
-  text-shadow: black 1px 0 40px;
+  /* text-shadow: rgb(255, 255, 255) 1px 0 40px; */
+}
 
+main {
   display: grid;
   grid-template-rows: 1fr 1fr 30%;
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 3%;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #7b7d7e,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #bcbebe,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position: center;
 }
 
 .img {
@@ -62,14 +65,13 @@ input[type="submit"] {
 
 /* EXPERIMENTAL WORK  */
 
-
 header {
   grid-row: 1;
   grid-column: 1;
 }
 
 nav a {
-  color: white;
+  color: #000000;
 }
 
 .bio {
@@ -78,7 +80,7 @@ nav a {
 }
 .bio p {
   padding: 2% 4% 4% 0;
-  text-align: end;
+  text-align: center;
   box-shadow: -1px 3px 5px grey;
 }
 .projects {
@@ -94,18 +96,25 @@ nav a {
 .contact {
   grid-row: 3 / span 1;
   grid-column: 1 / span 3;
+  font-size: 1rem;
 }
 
-footer {
+.contact p {
+  padding: 7%;
+}
+
+/* footer {
   background: black;
   border: 1px solid black;
-  height: 20%;
-  grid-column: 1 / span 3;
-}
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+} */
 
 .content {
-  background: #cf5c36;
-  color: #ffffff;
+  background: rgb(174, 177, 181);
+  color: #212121; /*rgba(58, 62, 60, 1);*/
   margin-top: 0;
   padding-bottom: 3%;
   padding-top: 2.5%;
@@ -113,13 +122,23 @@ footer {
 }
 
 .heading {
-  background: rgba(239, 200, 140, 1);
-  background-position: center;
-  box-shadow: -1px 3px 5px grey;
-  padding: 2% 0;
-  margin-bottom: 0;
+  text-shadow: rgb(0, 0, 0) 0px 2px 0px;
 }
+/* .heading {
+    background: rgba(239, 200, 140, 1);
+    background-position: center;
+    box-shadow: -1px 3px 5px grey;
+    padding: 2% 0;
+    margin-bottom: 0;
+  } */
 
 /* TODOS */
 /* 1. increase line-height
-    2.*/
+    2. fix fonts*/
+
+/* References
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+  https://uigradients.com/
+  https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow 
+ 
+ */
