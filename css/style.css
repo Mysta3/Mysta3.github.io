@@ -3,7 +3,8 @@ body {
   background: black;
   color: white;
   font-family: helvetica;
-  /* text-shadow: rgb(255, 255, 255) 1px 0 40px; */
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -24,6 +25,7 @@ main {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-position: center;
+  padding-bottom: 10%;
 }
 
 .img {
@@ -79,10 +81,13 @@ nav a {
   grid-column: 2 / span 1;
 }
 .bio p {
-  padding: 2% 4% 4% 0;
+  padding: 4% 6%;
   text-align: center;
-  box-shadow: -1px 3px 5px grey;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  word-spacing: .2rem;
 }
+
 .projects {
   grid-row: 1 / span 2;
   grid-column: 3 / span 1;
@@ -94,13 +99,22 @@ nav a {
 }
 
 .contact {
-  grid-row: 3 / span 1;
+  grid-row: 3 / span 2;
   grid-column: 1 / span 3;
   font-size: 1rem;
+  margin: 0 5%;
 }
 
 .contact p {
-  padding: 7%;
+  font-size: 1.3rem;
+  padding: 5%;
+  display: inline-block;
+  margin: 2%;
+  padding: 0;
+}
+
+.contact div {
+  border-radius: 1%;
 }
 
 /* footer {
@@ -119,22 +133,27 @@ nav a {
   padding-bottom: 3%;
   padding-top: 2.5%;
   box-shadow: -1px 3px 5px grey;
+  border-radius: 1%;
+  border-bottom: 2px solid grey;
 }
 
+.leftSpacer {
+  margin-left: 2%;
+}
+
+.rightSpacer{
+  margin-right: 2%;
+}
 .heading {
   text-shadow: rgb(0, 0, 0) 0px 2px 0px;
+  font-size: 2rem;
 }
-/* .heading {
-    background: rgba(239, 200, 140, 1);
-    background-position: center;
-    box-shadow: -1px 3px 5px grey;
-    padding: 2% 0;
-    margin-bottom: 0;
-  } */
-
+.separator {
+  border-bottom: 2px solid rgba(145, 149, 142, 0.8);
+  padding-bottom: 5%;
+}
 /* TODOS */
-/* 1. increase line-height
-    2. fix fonts*/
+/* 1. increase line-height */
 
 /* References
   https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
