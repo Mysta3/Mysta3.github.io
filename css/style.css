@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: black;
+  background: white;
   color: white;
   font-family: helvetica;
   margin: 0;
@@ -12,19 +12,18 @@ main {
   grid-template-rows: 1fr 1fr 30%;
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 3%;
-  background: #8e9eab; /* fallback for old browsers */
+  background: #f7971e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #7b7d7e,
-    #8e9eab
+    #ffd200,
+    #f7971e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #bcbebe,
-    #8e9eab
+    #ffd200,
+    #f7971e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-position: center;
+
   padding-bottom: 10%;
 }
 
@@ -35,7 +34,9 @@ main {
   text-align: center;
 }
 
-/* EXPERIMENTAL WORK  */
+a {
+  text-decoration: none;
+}
 
 header {
   grid-row: 1;
@@ -44,6 +45,7 @@ header {
 
 nav a {
   color: #ffffff;
+  padding: 3%;
 }
 
 .bio {
@@ -64,12 +66,13 @@ nav a {
 }
 
 .skills {
-  grid-row: 2 / span 1;
+  grid-row: 1 / span 1;
   grid-column: 1;
+  margin-top: 60%;
 }
 
 .contact {
-  grid-row: 3 / span 1;
+  grid-row: 2 / span 1;
   grid-column: 2 / span 1;
   font-size: 1rem;
   margin: 0 5%;
@@ -89,14 +92,18 @@ nav a {
 }
 
 .content {
-  background: #212121;
-  color: #ffffff; /*rgba(58, 62, 60, 1);*/
+  background: rgba(33, 33, 33, 1);
+  color: #ffffff;
   margin-top: 0;
   padding-bottom: 3%;
   padding-top: 2.5%;
-  box-shadow: -1px 3px 5px grey;
+  box-shadow: -1px 3px 5px white;
   border-radius: 1%;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid white;
+}
+
+.content a {
+  color: white;
 }
 
 .leftSpacer {
@@ -114,8 +121,4 @@ nav a {
 .separator {
   border-bottom: 2px solid rgba(145, 149, 142, 0.8);
   padding-bottom: 5%;
-}
-
-.separator a {
-  color: white;
 }
