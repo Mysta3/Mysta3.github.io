@@ -332,9 +332,3 @@
       $main._show(location.hash.substr(1), true);
     });
 })(jQuery);
-
-//Send Email
-function sendEmail() {
-  window.open('mailto:myshawnestallings@gmail.com?body=Enter Message');
-  window.location.href = '#';
-}
