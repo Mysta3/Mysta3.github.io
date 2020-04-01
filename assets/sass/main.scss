@@ -70,4 +70,25 @@
 @import 'layout/footer';
 
 //Added styling for tweaks
+.skillsIcons {
+  i {
+    font-size: 10vh;
+    text-align: center;
+    word-wrap: break-word;
+    word-spacing: 1vw;
+  }
+}
 
+.projectButtons {
+  a {
+    border: 1px solid #ffffff;
+    border-radius: 8%;
+    box-shadow: 0px 0px 3px rgb(95, 95, 95);
+    padding: 0.2% 0.8%;
+    margin: 1%;
+    display: inline-block;
+  }
+  a:hover {
+    border: 1px solid orange;
+  }
+}
