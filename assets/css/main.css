@@ -1459,4 +1459,16 @@ body.is-preload #footer {
   word-spacing: 1vw;
 }
 
+.projectButtons a {
+  border: 1px solid #ffffff;
+  border-radius: 8%;
+  box-shadow: 0px 0px 3px #5f5f5f;
+  padding: 0.2% 0.8%;
+  margin: 1%;
+  display: inline-block;
+}
+.projectButtons a:hover {
+  border: 1px solid orange;
+}
+
 /*# sourceMappingURL=main.css.map */
