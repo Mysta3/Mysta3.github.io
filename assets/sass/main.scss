@@ -70,4 +70,11 @@
 @import 'layout/footer';
 
 //Added styling for tweaks
-
+.skillsIcons {
+  i {
+    font-size: 10vh;
+    text-align: center;
+    word-wrap: break-word;
+    word-spacing: 1vw;
+  }
+}

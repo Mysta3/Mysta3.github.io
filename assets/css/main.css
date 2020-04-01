@@ -1452,4 +1452,11 @@ body.is-preload #footer {
   opacity: 0;
 }
 
+.skillsIcons i {
+  font-size: 10vh;
+  text-align: center;
+  word-wrap: break-word;
+  word-spacing: 1vw;
+}
+
 /*# sourceMappingURL=main.css.map */
