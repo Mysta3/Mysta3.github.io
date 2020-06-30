@@ -1471,4 +1471,12 @@ body.is-preload #footer {
   border: 1px solid orange;
 }
 
+.project-image {
+  border-radius: 2%;
+  box-shadow: 1px 1px 10px silver;
+  width: 80%;
+  display: block;
+  margin-bottom: 5%;
+}
+
 /*# sourceMappingURL=main.css.map */
