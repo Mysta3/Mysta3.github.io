@@ -18,28 +18,28 @@
   (
     xlarge: (
       1281px,
-      1680px
+      1680px,
     ),
     large: (
       981px,
-      1280px
+      1280px,
     ),
     medium: (
       737px,
-      980px
+      980px,
     ),
     small: (
       481px,
-      736px
+      736px,
     ),
     xsmall: (
       361px,
-      480px
+      480px,
     ),
     xxsmall: (
       null,
-      360px
-    )
+      360px,
+    ),
   )
 );
 
@@ -91,4 +91,12 @@
   a:hover {
     border: 1px solid orange;
   }
+}
+
+.project-image {
+  border-radius: 2%;
+  box-shadow: 1px 1px 10px silver;
+  width: 80%;
+  display: block;
+  margin-bottom: 5%;
 }
