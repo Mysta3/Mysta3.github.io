@@ -6,6 +6,9 @@
 
 Credits:
 
+- Typed.js:
+  - www.mattboldt.com
+
 - Images:
 
   - Photo by Tianyi Ma on Unsplash
